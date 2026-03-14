@@ -5,10 +5,10 @@ exports.handler = async () => {
 
 let students=[];
 
-for(let i=1;i<=120;i++){
+for(let i=115;i<=172;i++){
 
 let num = i.toString().padStart(3,"0");
-let usn = "1BI21CS"+num;
+let usn = "1HK24CS"+num;
 
 try{
 
